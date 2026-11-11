@@ -1,0 +1,11 @@
+{
+  "layout:kde3": {
+    "cmd-t": "kde3.newtab",
+    "cmd-w": "kde3.close",
+    "cmd-m": "kde3.minimize",
+    "alt-f1": "kde3.menu",
+    "cmd-shift-m": "kde3.maximize",
+    "cmd-shift-h": "kde3.desktop",
+    "cmd-shift-n": "kde3.launch"
+  }
+}

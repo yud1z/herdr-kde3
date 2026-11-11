@@ -1,0 +1,4 @@
+# Preserve upstream artwork/license bytes, including their original whitespace.
+mods/kde3/icons/moheli/source/** -whitespace
+mods/kde3/icons/moheli/COPYING -whitespace
+mods/kde3/COPYING-KDE-ASSETS -whitespace

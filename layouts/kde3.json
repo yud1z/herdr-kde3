@@ -1,0 +1,289 @@
+{
+  "id": "root",
+  "type": "column",
+  "titlebar": "none",
+  "traffic_lights": [
+    -200,
+    -200
+  ],
+  "preview": "layouts/kde3.svg",
+  "theme": "kde3-linux",
+  "font": "Menlo",
+  "font_size": 13,
+  "ui_font": "Tahoma",
+  "terminal_padding": [
+    3,
+    3
+  ],
+  "terminal_opacity": 1,
+  "background": {
+    "image": "mods/kde3/desktop-blue.svg",
+    "fit": "cover"
+  },
+  "resizable": false,
+  "children": [
+    {
+      "id": "desktop",
+      "type": "column",
+      "resizable": false,
+      "children": [
+        {
+          "id": "desk-top",
+          "type": "block",
+          "content": {
+            "mod": "kde3",
+            "props": {
+              "role": "desktop"
+            }
+          },
+          "size": {
+            "px": 90
+          }
+        },
+        {
+          "id": "desk-row",
+          "type": "row",
+          "size": {
+            "weight": 1
+          },
+          "resizable": false,
+          "children": [
+            {
+              "id": "desk-left",
+              "type": "block",
+              "size": {
+                "px": 190
+              },
+              "content": {
+                "mod": "kde3",
+                "props": {
+                  "role": "spacer"
+                }
+              }
+            },
+            {
+              "id": "konsole",
+              "type": "column",
+              "size": {
+                "weight": 1
+              },
+              "min": 280,
+              "resizable": false,
+              "background": "#00000000",
+              "padding": 0,
+              "border": {
+                "width": 0,
+                "color": "#00000000"
+              },
+              "children": [
+                {
+                  "id": "title",
+                  "type": "block",
+                  "content": {
+                    "mod": "kde3",
+                    "props": {
+                      "role": "title"
+                    }
+                  },
+                  "size": {
+                    "px": 23
+                  }
+                },
+                {
+                  "id": "konsole-body",
+                  "type": "row",
+                  "resizable": false,
+                  "children": [
+                    {
+                      "id": "frame-left",
+                      "type": "block",
+                      "size": {
+                        "px": 4
+                      },
+                      "content": {
+                        "mod": "kde3",
+                        "props": {
+                          "role": "frame",
+                          "part": "left"
+                        }
+                      }
+                    },
+                    {
+                      "id": "konsole-content",
+                      "type": "column",
+                      "background": "#c0c0c0",
+                      "padding": 0,
+                      "border": {
+                        "width": 0,
+                        "color": "#00000000"
+                      },
+                      "resizable": false,
+                      "children": [
+                        {
+                          "id": "menu",
+                          "type": "block",
+                          "content": {
+                            "mod": "kde3",
+                            "props": {
+                              "role": "menubar"
+                            }
+                          },
+                          "size": {
+                            "px": 22
+                          }
+                        },
+                        {
+                          "id": "toolbar",
+                          "type": "block",
+                          "content": {
+                            "mod": "kde3",
+                            "props": {
+                              "role": "toolbar"
+                            }
+                          },
+                          "size": {
+                            "px": 29
+                          },
+                          "hidden": true
+                        },
+                        {
+                          "id": "terminal-row",
+                          "type": "row",
+                          "resizable": false,
+                          "children": [
+                            {
+                              "id": "scrollbar",
+                              "type": "block",
+                              "size": {
+                                "px": 14
+                              },
+                              "content": {
+                                "mod": "kde3",
+                                "props": {
+                                  "role": "scrollbar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "terminal",
+                              "type": "block",
+                              "content": {
+                                "mod": "kde3",
+                                "props": {
+                                  "role": "spacer"
+                                }
+                              },
+                              "background": {
+                                "image": "mods/kde3/konsole-blue.svg",
+                                "fit": "cover"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "tabs",
+                          "type": "block",
+                          "content": {
+                            "mod": "kde3",
+                            "props": {
+                              "role": "tabs"
+                            }
+                          },
+                          "size": {
+                            "px": 27
+                          }
+                        },
+                        {
+                          "id": "status",
+                          "type": "block",
+                          "content": {
+                            "mod": "kde3",
+                            "props": {
+                              "role": "status"
+                            }
+                          },
+                          "size": {
+                            "px": 20
+                          },
+                          "hidden": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "frame-right",
+                      "type": "block",
+                      "size": {
+                        "px": 4
+                      },
+                      "content": {
+                        "mod": "kde3",
+                        "props": {
+                          "role": "frame",
+                          "part": "right"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "konsole-bottom",
+                  "type": "block",
+                  "size": {
+                    "px": 4
+                  },
+                  "content": {
+                    "mod": "kde3",
+                    "props": {
+                      "role": "frame",
+                      "part": "bottom"
+                    }
+                  }
+                }
+              ],
+              "hidden": true
+            },
+            {
+              "id": "desk-right",
+              "type": "block",
+              "size": {
+                "weight": 1
+              },
+              "content": {
+                "mod": "kde3",
+                "props": {
+                  "role": "spacer"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "desk-bottom",
+          "type": "block",
+          "size": {
+            "weight": 1
+          },
+          "content": {
+            "mod": "kde3",
+            "props": {
+              "role": "spacer"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "kicker",
+      "type": "block",
+      "content": {
+        "mod": "kde3",
+        "props": {
+          "role": "panel"
+        }
+      },
+      "size": {
+        "px": 36
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "path": "icons/period/configure-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "79fb415f14f0c153ea75130b2ff078dc509af045f350d6037f3f985758045887"
+  },
+  {
+    "path": "icons/period/configure-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "a8ca60ff25000b05528cfe507f6bfb48658c84bb20ce5ff1cedb4dff2659fdb5"
+  },
+  {
+    "path": "icons/period/desktop-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "a91c155a3d518172f6e030aecc910599e5f9620010a9be5261d99a6ea3d43c20"
+  },
+  {
+    "path": "icons/period/desktop-32.png",
+    "width": 34,
+    "height": 34,
+    "sha256": "375c6cf6f9e89b9c73f34d421ed37cc73f413c3e223334348925d0eb8a284a56"
+  },
+  {
+    "path": "icons/period/exit-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "eebe3901a1f12d62feabf91104335f3a704407d1e3a4b031492267725ead3ab2"
+  },
+  {
+    "path": "icons/period/exit-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "db814bcf0f4425ccccc5bdb65c7157413a7d74bd32cd4f16db7609233a0da036"
+  },
+  {
+    "path": "icons/period/help-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "9638fc27f7b240c0dd3756c7d5e462c57f1f621afd3f273319125ebabc70a3bd"
+  },
+  {
+    "path": "icons/period/help-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "2933685f8a22c0fbfef9f95535b53177ea880fb56f4162f430610f14e7f4dd31"
+  },
+  {
+    "path": "icons/period/home-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "cd4bf99bc83a317ae602e1be7b683f272ef880603a84e2444a3f7a6ee366d54a"
+  },
+  {
+    "path": "icons/period/home-32.png",
+    "width": 34,
+    "height": 34,
+    "sha256": "ad17ec537e030d6ec3f4783a9d3806fe0f158195153a089abc2d654119da07d6"
+  },
+  {
+    "path": "icons/period/kmenu-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "f002b56fc294fb49a7606f662774f7cb9c720184334cbdd727bb457052bb040e"
+  },
+  {
+    "path": "icons/period/kmenu-32.png",
+    "width": 34,
+    "height": 34,
+    "sha256": "0cf72e38c9f11afd8dbfef55421664ae5e7bb8aef4725d825f5b91b405161cb0"
+  },
+  {
+    "path": "icons/period/konsole-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "6259e0045d39ce36e9e68a722a8e51937816c160e3ab14a73610d5f5ee70ab8a"
+  },
+  {
+    "path": "icons/period/konsole-32.png",
+    "width": 34,
+    "height": 34,
+    "sha256": "6c6ef22bde4ac4c965937953f37f391f98dc82809167848ea82cceb17a50872f"
+  },
+  {
+    "path": "icons/period/new-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "18d97eb54b7d8f4e2986eda4de4883db2d0c3472f11e41f71344d97fc7f6021c"
+  },
+  {
+    "path": "icons/period/new-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "ad6467ecc1a977c96d76063d85a951e49b042a272eb67ce014a267a31a575000"
+  },
+  {
+    "path": "icons/period/sessions-16.png",
+    "width": 17,
+    "height": 16,
+    "sha256": "697db218471b5ec7490ec8b922f0ffbc70245742620d8a764ab732242e53488f"
+  },
+  {
+    "path": "icons/period/sessions-32.png",
+    "width": 34,
+    "height": 34,
+    "sha256": "c99bdecfe2d571d0239a36d12cae90db7cf180e85a2d7dcf8a95a824ea1a1dd9"
+  },
+  {
+    "path": "icons/period/split-down-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "ef03500f737bee7e804c15f7411164f7ff54ca98ec9cf3e9626a99bf4f00700d"
+  },
+  {
+    "path": "icons/period/split-down-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "ffbf628851c86253821178e51338119536dabbc06adf173290edad19f5d54611"
+  },
+  {
+    "path": "icons/period/split-right-16.png",
+    "width": 16,
+    "height": 16,
+    "sha256": "aff673e898ec5d5b79bce66abcc16bcacbd986d89b46226443cec5fd057c215b"
+  },
+  {
+    "path": "icons/period/split-right-32.png",
+    "width": 32,
+    "height": 32,
+    "sha256": "972490e9bd2c4869b4ed33c834cebdc6f9fc8f9e0cc1e48a1924b66f8b024198"
+  }
+]

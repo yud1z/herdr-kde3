@@ -1,0 +1,20 @@
+{
+  "active_color_1": "#3c6c9f",
+  "active_hilight_1": "#7298c0",
+  "active_shadow_1": "#264e78",
+  "active_mid_1": "#537da9",
+  "inactive_color_1": "#b6b6b6",
+  "inactive_hilight_1": "#dddddd",
+  "inactive_shadow_1": "#929292",
+  "inactive_mid_1": "#aaaaaa",
+  "active_color_2": "#c0c0c0",
+  "active_hilight_2": "#e0e0e0",
+  "active_shadow_2": "#a0a0a0",
+  "active_mid_2": "#b0b0b0",
+  "inactive_color_2": "#c0c0c0",
+  "inactive_hilight_2": "#dddddd",
+  "inactive_shadow_2": "#aaaaaa",
+  "inactive_mid_2": "#b6b6b6",
+  "active_border_color": "#101010",
+  "inactive_border_color": "#818181"
+}
