@@ -31,6 +31,8 @@ class InstallerTests(unittest.TestCase):
             self.assertEqual((dest / 'shared.json').read_text(), 'untouched runtime state')
             self.assertEqual(len(list((dest / 'backups').glob('*/keys.json'))), 1)
             self.assertTrue((dest / 'mods/kde3/main.js').exists())
+            self.assertFalse((dest / 'RECIPE.md').exists())
+            self.assertFalse((dest / 'preview.png').exists())
             self.assertEqual(self.run_install(dest), 0)
 
     def test_dry_run_creates_nothing(self):

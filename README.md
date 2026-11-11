@@ -4,7 +4,7 @@ A terminal-only Herdr theme inspired by early KDE/Knoppix, with Moheli window
 decorations, HighColor artwork, silver controls, a blue desktop and LCD clock.
 This is a theme, **not** KDE, Xfce, or the Konsole application.
 
-![KDE3 theme with synthetic demo terminals](docs/screenshot.png)
+![KDE3 theme with synthetic demo terminals](preview.png)
 
 *The screenshot uses a demo username/hostname and invented filenames, not a real
 home directory or terminal history.*
@@ -17,6 +17,12 @@ home directory or terminal history.*
 - Taskbar switching, Show Desktop, live command titles and confirmation before closing.
 - KDE picture, black, Linux green and paper terminal profiles.
 - No virtual-desktop pager: Herdr spaces are work groupings, not KDE desktops.
+
+## Reconstruction recipe
+
+[RECIPE.md](RECIPE.md) is the empty-folder reconstruction brief. This repository
+root is one shareable layout folder: `layouts/`, `mods/`, `themes/`, scoped
+`keys.json`, the recipe and a privacy-safe `preview.png`.
 
 ## Install
 

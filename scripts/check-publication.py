@@ -60,8 +60,8 @@ def audit(root=ROOT, denied=()):
     for path in entries:
         if path.is_symlink():
             problems.append(f'{path.relative_to(root)}: symlink')
-    if not (root / 'docs/screenshot.png').is_file():
-        problems.append('docs/screenshot.png: missing reviewed demo screenshot')
+    if not (root / 'preview.png').is_file():
+        problems.append('preview.png: missing reviewed demo screenshot')
     for path in files:
         relative = path.relative_to(root)
         if path.is_symlink():
@@ -74,7 +74,7 @@ def audit(root=ROOT, denied=()):
         data = path.read_bytes()
         if path.suffix == '.png':
             digest = hashlib.sha256(data).hexdigest()
-            if str(relative) == 'docs/screenshot.png':
+            if str(relative) == 'preview.png':
                 allowed = {b'IHDR', b'IDAT', b'IEND', b'sRGB', b'gAMA', b'pHYs', b'cHRM'}
                 try:
                     if set(png_chunks(data)) - allowed:

@@ -18,7 +18,7 @@ class PublicationTests(unittest.TestCase):
         (root / 'mods/kde3/icons/period/manifest.json').write_text('[]')
         (root / 'keys.json').write_text(json.dumps({'layout:kde3': {}}))
         (root / 'docs').mkdir()
-        (root / 'docs/screenshot.png').write_bytes(PNG)
+        (root / 'preview.png').write_bytes(PNG)
 
     def test_minimal_clean_bundle(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -52,7 +52,7 @@ class PublicationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self.fixture(root)
-            (root / 'docs/screenshot.png').write_bytes(PNG + b'not-image-data')
+            (root / 'preview.png').write_bytes(PNG + b'not-image-data')
             self.assertTrue(any('Unexpected data' in value for value in module.audit(root)[1]))
 
 
